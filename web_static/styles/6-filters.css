@@ -1,0 +1,83 @@
+.container section.filters{
+background-color: white;
+height: 70px;
+width: 100%;
+border: 1px solid #DDDDDD;
+border-radius: 4px;
+display: flex;
+align-items: center;
+}
+
+.btn{
+font-size: 18px;
+background-color: #FF5A5F;
+color: #FFFFFF;
+height: 48px;
+width: 20%;
+border: 0;
+border-radius: 4px;
+}
+
+.btnsearch{
+margin-left: auto;
+margin-right: 30px;
+}
+.btnsearch:hover {
+opacity: 90%;
+}
+
+div.locations, div.amenities{
+height: 100%;
+width: 25%;
+padding: 0 30px;
+}
+
+div.locations{
+border-right: 1px solid #DDDDDD;
+}
+
+h3{
+font-weight: 600;
+margin: 10px 0px 0px 0px;
+}
+
+h4{
+font-weight: 400;
+font-size: 14px;
+margin: 0;
+}
+
+.filters ul{
+list-style: none;
+}
+
+.locations ul.popover,
+.amenities ul.popover {
+background-color: #FAFAFA;
+display: none;
+width: 100%;
+border: 1px solid #DDDDDD;
+border-radius: 4px;
+margin: 20px 0px 0px -30px;
+padding: 20px 30px;
+}
+
+.filters ul.popover h2{
+font-size: 16px;
+}
+
+.locations ul, amenities ul{
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.locations li, amenities li{
+margin: 0px 20px 0px 0px;
+padding: 0px 10px 10px  10px;
+}
+
+
+.locations:hover ul.popover, 
+.amenities:hover ul.popover {
+display: block;
+}
