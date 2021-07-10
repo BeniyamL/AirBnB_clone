@@ -45,7 +45,8 @@ This project is designed to Write a command interpreter to manage our AirBnB obj
    * It then splits the string into words
    * It takes the first word as a command and then finds the appropriate do handler to execute the command
    * if the first word is not identfied, it calls the default handler to execute the user instruction
-   * finally after execution, the final output is displayed back to the user
+   * Finally after execution, the final output will be displayed back to the user
+
 
 ---
 
@@ -91,9 +92,9 @@ EOF  all  clear  create  destroy  help  quit  show  update
 ## Usage
 
    * Download the source code from the github repository
-   * Run the project by writing ./console.py if you want execute in the interactive mode 
+   * Run the project by writing ./console.py if you want to execute in the interactive mode 
    * While the system prompts the user, write the required command
-   * Or run the project by concatenating other commands with ./console.py if you want to execute in the non-interactive mode
+   * Or run the project by concatenating other commands with ./console.py if you want in non-interactive mode
    * Finally the system will display the approprate out put to the user
    * When you want to exit the system, type quit or EOF in the interactive mode
 
