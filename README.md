@@ -47,6 +47,7 @@ This project is designed to Write a command interpreter to manage our AirBnB obj
    * if the first word is not identfied, it calls the default handler to execute the user instruction
    * Finally after execution, the final output will be displayed back to the user
 
+
 ---
 
 ## modes of operation
@@ -55,7 +56,7 @@ The project works in interactive mode and non-interactive mode as shown below.
 
 ### interactive modes of operaton
 
-The interactive mode allows the user to write the command once they are in the prompt in the interactive way as shown in the example below
+The interactive mode allows the user to write the command once they are in the prompt in interactive way as shown in the example below
 
 
 ``` help command ```:
