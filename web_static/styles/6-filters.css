@@ -80,4 +80,6 @@ padding: 0px 10px 10px  10px;
 .locations:hover ul.popover, 
 .amenities:hover ul.popover {
 display: block;
+position: relative;
+z-index: 200;
 }
